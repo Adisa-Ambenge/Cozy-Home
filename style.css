@@ -1,0 +1,125 @@
+.background{
+    background-image: url(/images/home.jpg);
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: 100%;
+    overflow: none;
+    scrollbar-darkshadow-color: black;
+    background-blend-mode:multiply;
+}
+.head{
+
+}
+.topNav{
+    text-emphasis-color: white;
+}
+.shopNow{
+    text-align: center;
+}
+#Two{
+    width: 20%;
+    height: 200px;
+    margin: 20px;
+
+}
+#Three{
+    width: 20%;
+    height: 200px;
+    margin: 20px;
+}
+#One{
+    width: 20%;
+    height: 200px;
+    margin: 20px;
+}
+.explore{
+    margin-left: 180px;
+    display: flex;
+}
+#HR{
+    width: 10%;
+    position: relative;
+    right: 20%;
+    top: 40px;
+}
+.exploreStyle{
+    padding-left: 200px;
+}
+.Discover{
+    float:center;
+}
+.popularDesign{
+    background-color: #002d3d;
+    margin: 30px;
+}
+#vase{
+    float: right;
+    width: 50%;
+    margin-right: 100px;
+    padding-bottom: 70px;
+    margin-top: 30px;
+}
+.vasee{
+    background-color: #ffe5d6;
+    height: 500px;
+    display: flex;
+    float: center;
+}
+.inspiration{
+    background-size: cover;
+    border-radius: 90%;
+    border: solid black;
+    padding-left: 100px;
+    background: cover;
+    padding-top: 100px;
+  
+    
+}
+
+    
+
+.Newsletter{
+    text-align: center;
+}
+#email{
+    border-radius: 5px;
+}
+#Go{
+    border-radius: 5px;
+    background-color: #ffac7d;
+    padding: 0px 10px;
+}
+.social{
+background-color: #002d3d;
+}
+#home{
+    color: #ffac7d;
+}
+.media{
+    color: white;
+}
+.about{
+    list-style: none;
+    margin-left: 100px;
+}
+.social{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    height: 250px;
+    padding: 50px;
+    text-decoration-color: white;
+}
+#imgOne{
+width: 200px;
+margin: 20px;
+}
+#imgTwo{
+    width: 200px;
+    margin: 20px;
+    }
+#imgThree{
+        width: 200px;
+        margin: 20px;
+        }
