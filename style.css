@@ -8,14 +8,13 @@
     scrollbar-darkshadow-color: black;
     background-blend-mode:multiply;
 }
-.head{
-
-}
 .topNav{
-    text-emphasis-color: white;
+    color: white;
+    text-align: center;
 }
 .shopNow{
     text-align: center;
+    margin-top: 10%;
 }
 #Two{
     width: 20%;
@@ -47,18 +46,27 @@
     padding-left: 200px;
 }
 .Discover{
-    float:center;
+    margin-left: 40%;
+    background-color: #ffac7d;
+    border-radius: 5px;
+    padding: 5px;
 }
 .popularDesign{
     background-color: #002d3d;
     margin: 30px;
+    justify-content: center;
+    color: #ffac7d;
+    display: flex;
+    height: 400px;
 }
 #vase{
     float: right;
     width: 50%;
-    margin-right: 100px;
-    padding-bottom: 70px;
+    margin-right: 150px;
+    /* padding-bottom: 70px; */
     margin-top: 30px;
+    /* height: 400px; */
+
 }
 .vasee{
     background-color: #ffe5d6;
@@ -68,11 +76,17 @@
 }
 .inspiration{
     background-size: cover;
-    border-radius: 90%;
-    border: solid black;
+    border-radius: 50%;
+    height: 400px;
+    width: 55%;
+    background-color:#ffac7d;
+    /* border: solid rgb(219, 203, 203); */
     padding-left: 100px;
     background: cover;
     padding-top: 100px;
+    /* margin-left: 20%; */
+    position: relative;
+    left: 150px;
   
     
 }
@@ -81,6 +95,7 @@
 
 .Newsletter{
     text-align: center;
+    height: 200px;
 }
 #email{
     border-radius: 5px;
@@ -123,3 +138,29 @@ margin: 20px;
         width: 200px;
         margin: 20px;
         }
+.abt{
+    color: white;
+}
+.shipping{
+    color: white;
+}
+.career{
+    color: white;
+}
+.number{
+    color: white;
+}
+.modern{
+    display: flex;
+    padding-left: 21%;
+    border: #ffe5d6 solid;
+}
+#classic{
+    padding-left: 18%;
+}
+#scandi{
+    padding-left: 12%;
+}
+.flower{
+    height: 100px;
+}
