@@ -10,7 +10,9 @@
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
     <title>cozy</title>
 </head>
 <body>
@@ -19,8 +21,18 @@
 <header>
 <div class="topNav">
     <p>Cozy <span id="home">Home&nbsp;&nbsp;&nbsp;&nbsp;</span>Shop&nbsp;&nbsp;&nbsp;&nbsp;
-        Style&nbsp;&nbsp;&nbsp;&nbsp;Offers&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="Search.." name="search">
-
+        Style&nbsp;&nbsp;&nbsp;&nbsp;Offers&nbsp;&nbsp;&nbsp;&nbsp;
+        <div id="hidden">
+        <input id="hold" type="text" placeholder &nbsp;="Search.." name="search">
+        <i id="search" class="fa fa-search" aria-hidden="true"></i>
+        <i id="pin" class="fa fa-pinterest-p" aria-hidden="true"></i>
+        <i id="camera" class="fa fa-camera" aria-hidden="true"></i>
+        </div>
+        <div class="icons">
+            <i class="fa fa-user"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <i class="fa fa-heart"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <i class="fa fa-shopping-bag"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </div>
     </p>
     <hr>
 
@@ -41,7 +53,6 @@
 </div>
 
 <div class="modern">
-    
     <p id="moderne">MODERN</p>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <p id="classic">CLASSIC</p>
@@ -61,20 +72,25 @@
 <button class="Discover">Discover More &#x2192;</button>
 
 <div class="popularDesign">
-    
+    <div class="pop"><h1>Popular designs________</h1></div>
+    <div class="designs">
    <div> <img id="imgOne" src="/images/imgOne.jpg">
-    <p>Rustic Oak Wood Table &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9829;</p>
-    <p>&#8364;229.90</p>
+    <p id="Rustic">Rustic Oak Wood Table &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9829;</p>
+    <p id="hundred">&#8364;229.90</p>
    </div>
 
     <div><img id="imgTwo" src="/images/Two.jpg">
-    <p>Oak Wood Wall Shelves&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9829;</p>
-    <p>&#8364;49.90</p>
+    <p id="Oak">Oak Wood Wall Shelves&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9829;</p>
+    <p id="forty">&#8364;49.90</p>
     </div>
 
     <div><img id="imgThree" src="/images/imgThree.jpg">
-    <p>Scandinavian Mustard Chair&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9829;</p>
-    <p>&#8364;79.90</p>
+    <p id="mustard">Scandinavian Mustard Chair&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9829;</p>
+    <p id="seventy">&#8364;79.90</p>
+    </div>
+    </div>
+    <div class="All">
+        <button id="btn">Explore All&#x2192;</button>
     </div>
     
 
@@ -85,7 +101,7 @@
 <div class="vasee">
     <div class="inspiration">
     <div class="words">
-        <h1>Need Inspiration?</h1>
+        <h1>Need Inspiration?________</h1>
     <p>Find all your inspiration,interior ideas and creative tips from our<br>
     inspiration vault.</p>
     <a href="">Explore Ideas &#x2192;</a><br><br>
